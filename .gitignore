@@ -1,0 +1,6 @@
+db.sqlite3
+fartass2.db
+main.py.old
+.env
+.ida/
+__pycache/
