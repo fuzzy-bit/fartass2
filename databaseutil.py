@@ -14,3 +14,8 @@ def getMessages():
         query[i] = query[i][0]
 
     return query
+
+
+def addMessage(message):
+    cursor.execute("INSERT INTO messages VALUES (?)", [message])
+    database.commit()
